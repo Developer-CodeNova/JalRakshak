@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Working | JalRakshak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-header purple">
+    <h1>It's Working</h1>
+    <p>How JalRakshak works</p>
+</div>
+
+<section class="glass-card">
+    <h1>Live Smart System</h1>
+    <h3>Real-Time JalRakshak Simulation Dashboard</h3>
+
+    <p>
+    This dashboard simulates how JalRakshak behaves in real life.
+    The values update automatically just like real sensors.
+    </p>
+</section>
+
+<section class="glass-card">
+    <div class="dashboard">
+        <div class="card">
+            Water Level
+            <span id="level">--</span>
+        </div>
+
+        <div class="card">
+            Flow Rate
+            <span id="flow">--</span>
+        </div>
+
+        <div class="card">
+            Turbidity
+            <span id="turb">--</span>
+        </div>
+    </div>
+</section>
+
+<section class="glass-card">
+    <h2>System Status</h2>
+    <div id="alert" class="alert">System Normal</div>
+
+    <p>
+    The system automatically:
+    turns motor ON when water is low,
+    turns motor OFF when tank is full,
+    detects leakage,
+    and warns about dirty water.
+    </p>
+</section>
+
+<a href="index.html" class="back">← Back to Home</a>
+
+<script src="script.js"></script>
+</body>
+</html>
